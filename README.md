@@ -12,6 +12,9 @@
 ### 📐 数学基础 (Mathematics)
 *   [**维纳过程 (Wiener Process)**](./Math/wiener_process.md)
     *   解析连续时间随机过程的数学定义，厘清物理现象（布朗运动）与理想化模型之间的映射关系。
+*   [**随机扰动 (Stochastic Perturbation)**](./Math/stochastic_perturbation.md)
+    *   探讨确定性系统在不确定因素干预下的演化规律，以及随机微分方程的建模基础。
+
 <!--
 *   **[优化理论与邻近算子 (Proximal Operators)](./Mathematics/proximal_algorithms.md)**
     *   探讨非光滑优化、复合函数优化及在大规模数据处理中的应用。
