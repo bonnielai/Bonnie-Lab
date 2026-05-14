@@ -19,6 +19,10 @@
 -->
 
 ### 🎲 博弈论 (Game Theory)
+*   [**纳什均衡 (Nash Equilibrium)**](./Game/Nash_Equilibrium.md)
+    *   探讨在非合作博弈中，各参与者在对手决策不变时均无动机单方面改变策略的稳定状态。
+*   [**斯塔克尔伯格博弈 (Stackelberg Game)**](./Game/stackelberg_game.md)
+    *   解析具有先后决策顺序的层级化博弈，探讨领导者通过先行决策引导跟随者行为的机制。
 <!--
 *   **[非合作博弈与纳什均衡](./Game_Theory/nash_equilibrium.md)**
 *   **[平均场博弈 (MFG)](./Game_Theory/mean_field_games.md)**：研究大规模异构智能体群体的交互行为。
