@@ -56,6 +56,8 @@
     *   探讨车辆在物理空间中的虚拟排斥场及其对微观决策的影响。
 *   [**Frenet 坐标系 (Frenet Frame)**](./AI_Traffic/Frenet_coordinates.md)
     *   通过将弯曲道路“拉直”为纵向与侧向维度，简化自动驾驶中的路径规划与运动决策。
+*   [**地板油与动力饱和 (Full Throttle & Saturation Control)**](./AI_Traffic/full_throttle.md)
+    *   解析极端加速行为在自动驾驶纵向规划中的数学约束及其对多智能体博弈的影响。
 
 <!--*   [**跨尺度仿真 (L2S2D)**](./AI_Traffic/l2s2d_framework.md)：连接微观博弈与宏观分布的钥匙。-->
 
