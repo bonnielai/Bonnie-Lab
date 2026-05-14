@@ -14,6 +14,8 @@
     *   解析连续时间随机过程的数学定义，厘清物理现象（布朗运动）与理想化模型之间的映射关系。
 *   [**随机扰动 (Stochastic Perturbation)**](./Math/stochastic_perturbation.md)
     *   探讨确定性系统在不确定因素干预下的演化规律，以及随机微分方程的建模基础。
+*   [**空间离散化 (Spatial Discretization)**](./Math/spatial_discretization.md)
+    *   探讨如何将连续物理空间转化为计算机可处理的有限单元，及其在交通流仿真与路径规划中的实现。
 
 <!--
 *   **[优化理论与邻近算子 (Proximal Operators)](./Mathematics/proximal_algorithms.md)**
