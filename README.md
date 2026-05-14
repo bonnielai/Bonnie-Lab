@@ -47,6 +47,8 @@
     *   解析混合自动化背景下，不同智能等级与驾驶风格的冲突与共存。
 *   [**影响场理论 (Influence Field Theory)**](./AI_Traffic/influence_field.md)
     *   探讨车辆在物理空间中的虚拟排斥场及其对微观决策的影响。
+*   [**Frenet 坐标系 (Frenet Frame)**](./AI_Traffic/Frenet_coordinates.md)
+    *   通过将弯曲道路“拉直”为纵向与侧向维度，简化自动驾驶中的路径规划与运动决策。
 
 <!--*   [**跨尺度仿真 (L2S2D)**](./AI_Traffic/l2s2d_framework.md)：连接微观博弈与宏观分布的钥匙。-->
 
