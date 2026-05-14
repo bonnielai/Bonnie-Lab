@@ -12,12 +12,12 @@
 
 1.  **下层反馈问题 (Follower's Optimization)**：
     给定领导者的策略 $a_L$，跟随者求解其最优反应集：
-    $$a_F^*(a_L) = \arg\min_{a_F \in A_F} J_F(a_L, a_F)$$
+    $$a_F^\*(a_L) = \arg\min_{a_F \in A_F} J_F(a_L, a_F)$$
     其中 $J_F$ 为跟随者的成本函数。这一过程建立了从领导者空间到跟随者空间的函数映射。
 
 2.  **上层决策问题 (Leader's Optimization)**：
     领导者将下层的反馈函数 $a_F^*(a_L)$ 显式代入自身的目标函数：
-    $$\min_{a_L \in A_L} J_L(a_L, a_F^*(a_L))$$
+    $$\min_{a_L \in A_L} J_L(a_L, a_F^\*(a_L))$$
     通过这种嵌套优化，领导者在决策瞬间已完成了对系统最终演化状态的“逻辑前瞻”。
 
 ---
