@@ -24,6 +24,9 @@
     *   探讨函数变化率的有界性定义及其在 WGAN 稳定性、微分方程求解中的核心支撑作用。
 *   [**Hamilton-Jacobi-Bellman (HJB) 方程**](./Math/hjb_equation.md)
     *   详细解析连续时间最优控制的充分必要条件，涵盖价值函数推导、随机扩散项修正及动力学耦合机制。
+*   [**Fokker-Planck (FPK) 方程**](./Math/fokker_planck_equation.md)
+    *   详细解析概率密度函数的演化规律，涵盖漂移-扩散机制、质量守恒定律及其在 MFG 中的正向演化作用。
+
 
 <!--
 *   **[优化理论与邻近算子 (Proximal Operators)](./Mathematics/proximal_algorithms.md)**
