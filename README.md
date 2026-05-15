@@ -16,6 +16,8 @@
     *   探讨确定性系统在不确定因素干预下的演化规律，以及随机微分方程的建模基础。
 *   [**空间离散化 (Spatial Discretization)**](./Math/spatial_discretization.md)
     *   探讨如何将连续物理空间转化为计算机可处理的有限单元，及其在交通流仿真与路径规划中的实现。
+*   [**Wasserstein 距离 (Optimal Transport)**](./Math/wasserstein_distance.md)
+    * 深度解析“推土机距离”的数学原理，探讨其在 WGAN 优化及概率分布对齐中的几何优势。
 
 <!--
 *   **[优化理论与邻近算子 (Proximal Operators)](./Mathematics/proximal_algorithms.md)**
