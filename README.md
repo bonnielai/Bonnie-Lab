@@ -22,6 +22,8 @@
     *   探讨如何将复杂的耦合系统（如 MFG）转化为算子求平衡点问题，并分析其收敛性。
 *   [**Lipschitz 连续 (Lipschitz Continuity)**](./Math/lipschitz_continuity.md)
     *   探讨函数变化率的有界性定义及其在 WGAN 稳定性、微分方程求解中的核心支撑作用。
+*   [**Hamilton-Jacobi-Bellman (HJB) 方程**](./Math/hjb_equation.md)
+    *   详细解析连续时间最优控制的充分必要条件，涵盖价值函数推导、随机扩散项修正及动力学耦合机制。
 
 <!--
 *   **[优化理论与邻近算子 (Proximal Operators)](./Mathematics/proximal_algorithms.md)**
