@@ -26,7 +26,8 @@
     *   详细解析连续时间最优控制的充分必要条件，涵盖价值函数推导、随机扩散项修正及动力学耦合机制。
 *   [**Fokker-Planck (FPK) 方程**](./Math/fokker_planck_equation.md)
     *   详细解析概率密度函数的演化规律，涵盖漂移-扩散机制、质量守恒定律及其在 MFG 中的正向演化作用。
-
+*   [**邻近点算法 (Proximal Point Algorithm)**](./Math/proximal_point_algorithm.md)
+    *   探讨隐式凸优化的鼻祖算法，解析近端正则化平滑机制、隐式迭代的鲁棒收敛性以及向现代变分不等式、ADMM 算法的演化逻辑。
 
 <!--
 *   **[优化理论与邻近算子 (Proximal Operators)](./Mathematics/proximal_algorithms.md)**
