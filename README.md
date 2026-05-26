@@ -28,6 +28,8 @@
     *   详细解析概率密度函数的演化规律，涵盖漂移-扩散机制、质量守恒定律及其在 MFG 中的正向演化作用。
 *   [**邻近点算法 (Proximal Point Algorithm)**](./Math/proximal_point_algorithm.md)
     *   探讨隐式凸优化的鼻祖算法，解析近端正则化平滑机制、隐式迭代的鲁棒收敛性以及向现代变分不等式、ADMM 算法的演化逻辑。
+*   [**Nesterov 加速梯度方法（NAG）深度解析**](./Math/nesterov_accelerated_methods.md)
+    *   深度系统化梳理 Nesterov 第一、第二、第三加速方法的数学架构、适用场景以及在对偶与复合优化中的演化关系。 
 
 <!--
 *   **[优化理论与邻近算子 (Proximal Operators)](./Mathematics/proximal_algorithms.md)**
