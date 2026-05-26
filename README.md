@@ -28,8 +28,22 @@
     *   详细解析概率密度函数的演化规律，涵盖漂移-扩散机制、质量守恒定律及其在 MFG 中的正向演化作用。
 *   [**邻近点算法 (Proximal Point Algorithm)**](./Math/proximal_point_algorithm.md)
     *   探讨隐式凸优化的鼻祖算法，解析近端正则化平滑机制、隐式迭代的鲁棒收敛性以及向现代变分不等式、ADMM 算法的演化逻辑。
-*   [**Nesterov 加速梯度方法（NAG）深度解析**](./Math/nesterov_accelerated_methods.md)
-    *   深度系统化梳理 Nesterov 第一、第二、第三加速方法的数学架构、适用场景以及在对偶与复合优化中的演化关系。 
+*   [**Nesterov 加速梯度方法（NAG）**](./Math/nesterov_accelerated_methods.md)
+    *   深度系统化梳理 Nesterov 第一、第二、第三加速方法的数学架构、适用场景以及在对偶与复合优化中的演化关系。
+*   [**次梯度方法 (Subgradient Method)**](./Math/subgradient_method.md)
+    *   解析非光滑凸优化的核心工具，涵盖次微分数学定义、非下降方向特性及动态步长收敛策略。
+*   [**加速邻近梯度法 (Accelerated Proximal Gradient Method)**](./Math/accelerated_proximal_gradient.md)
+    *   解析 Nesterov 动量外推机制，剖析 FISTA 算法架构，探讨复合凸优化中 $\mathcal{O}(1/k^2)$ 极限收敛速率的数学证明。
+*   [**邻近梯度法 (Proximal Gradient Method)**](./Math/proximal_gradient_method.md)
+    *   详述前向-后向分裂架构，解析复合凸优化中光滑梯度与非光滑近端映射的耦合机制，探讨 FISTA 加速原理。
+*   [**邻近算子 (Proximal Operator)**](./Math/proximal_operator.md)
+    *   详述非光滑复合优化的核心桥梁，涵盖近端映射数学定义、常见闭式解（软阈值/投影）及在大规模分布式控制中的应用。
+*   [**坐标下降法 (Coordinate Descent Method)**](./Math/coordinate_descent_method.md)
+    *   系统化梳理坐标下降法的高维分而治之机制、算法递推流程，深度剖析非凸不收敛经典反例（Powell 震荡），以及坐标极小点在连续可微与非光滑凸函数场景下的收敛性定理。
+*   [**牛顿法 (Newton's Method)**](./Math/newtons_method.md)
+    *   系统化梳理基于二阶泰勒展开的经典牛顿法推导与迭代流程，深度剖析其在最优解邻域内的局部二次收敛性定理，并针对经典牛顿法的局限性，详述阻尼牛顿法、混合算法以及拟牛顿法（BFGS/L-BFGS）三大现代改进变体。
+*   [**拟牛顿法 (Quasi-Newton Method)**](./Math/quasi_newtons_method.md)
+    *   系统化梳理旨在免除海瑟矩阵显式计算的拟牛顿思想与通用迭代流程，深度剖析割线方程这一核心数学本质，并详述 DFP、BFGS 以及适用于大规模高维特征存储受限场景的 L-BFGS 等经典低秩修正算法与超线性收敛性质。
 
 <!--
 *   **[优化理论与邻近算子 (Proximal Operators)](./Mathematics/proximal_algorithms.md)**
