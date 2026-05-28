@@ -73,6 +73,10 @@
 从感知、推理到技能习得的智能体技术栈。
 
 ### 🧠 AI 基础理论
+*   [**蒙特卡洛树搜索 (Monte Carlo Tree Search)**](./AI_core/mcts_decision_making.md) 
+    *   解析 AI 决策规划的核心框架：详述选择、扩展、模拟、反向传播四大环节，分析其在动态环境下如何通过随机模拟逼近最优策略，以及在 AlphaGo 等复杂博弈系统中的关键地位。 
+*   [**置信上限树算法 (UCT, Upper Confidence Bound for Trees)**](./AI_core/uct_decision_balance.md) 
+    *   剖析 MCTS 的搜索决策策略：探讨 UCT 公式如何在“利用（Exploitation）”已发现优势与“探索（Exploration）”未知空间之间建立数学平衡，解决复杂决策过程中的路径选择难题。
 <!--
 *   **[深度学习 (Deep Learning)](./AI_Core/deep_learning.md)**：Transformer 架构、特征表达与神经网络稳定性。
 *   **[强化学习 (Reinforcement Learning)](./AI_Core/reinforcement_learning.md)**：从 MDP 到 PPO，探讨智能体在复杂环境中的最优决策。
