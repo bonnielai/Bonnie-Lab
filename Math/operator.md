@@ -50,7 +50,7 @@ $$
 
 ---
 
-## 4. 特殊算子：[邻近算子 (Proximal Operator)](./Math/proximal_operator.md) —— 非光滑优化的救星 
+## 4. 特殊算子：[邻近算子 (Proximal Operator)](./proximal_operator.md) —— 非光滑优化的救星 
 
 在优化领域，当目标函数不可导（有尖点、折痕）时，梯度下降会失效。这时我们需要“邻近算子”：
 
