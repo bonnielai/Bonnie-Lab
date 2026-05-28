@@ -10,6 +10,14 @@
 支撑复杂系统建模的底层工具与数学框架。
 
 ### 📐 数学基础 (Mathematics)
+*   [**算子 (Operator)**](./Math/operator.md)
+    *   系统化梳理算子作为处理“过程”与“映射关系”的超级规则，解析微分、积分及线性算子在空间变换中的作用，探讨算子在深度学习框架中作为“原子积木”的解构思想，并详述邻近算子在非光滑优化中作为平滑预处理工具的核心机制。
+*   [**梯度算子 (Gradient Operator)**](./Math/gradient_operator.md)
+    *   系统化梳理作为向量微分算子的梯度本质，解析其在标量场中指向函数增长最快方向的几何法则，探讨梯度算子与等值面（等高线）的正交特性，并深度阐述其在 AI 损失函数优化中的导航作用及在物理场（如热流、电势）中的负梯度反馈意义。
+*   [**邻近算子 (Proximal Operator)**](./Math/proximal_operator.md)
+    *   详述非光滑复合优化的核心桥梁，涵盖近端映射数学定义、常见闭式解（软阈值/投影）及在大规模分布式控制中的应用。
+*   [**不动点算子 (Fixed-Point Operator)**](./Math/fixed_point.md)
+    *   探讨如何将复杂的耦合系统（如 MFG）转化为算子求平衡点问题，并分析其收敛性。
 *   [**维纳过程 (Wiener Process)**](./Math/wiener_process.md)
     *   解析连续时间随机过程的数学定义，厘清物理现象（布朗运动）与理想化模型之间的映射关系。
 *   [**随机扰动 (Stochastic Perturbation)**](./Math/stochastic_perturbation.md)
@@ -18,8 +26,6 @@
     *   探讨如何将连续物理空间转化为计算机可处理的有限单元，及其在交通流仿真与路径规划中的实现。
 *   [**Wasserstein 距离 (Optimal Transport)**](./Math/wasserstein_distance.md)
     *   深度解析“推土机距离”的数学原理，探讨其在 WGAN 优化及概率分布对齐中的几何优势。
-*   [**不动点算子 (Fixed-Point Operator)**](./Math/fixed_point.md)
-    *   探讨如何将复杂的耦合系统（如 MFG）转化为算子求平衡点问题，并分析其收敛性。
 *   [**Lipschitz 连续 (Lipschitz Continuity)**](./Math/lipschitz_continuity.md)
     *   探讨函数变化率的有界性定义及其在 WGAN 稳定性、微分方程求解中的核心支撑作用。
 *   [**Hamilton-Jacobi-Bellman (HJB) 方程**](./Math/hjb_equation.md)
@@ -36,8 +42,6 @@
     *   解析 Nesterov 动量外推机制，剖析 FISTA 算法架构，探讨复合凸优化中 $\mathcal{O}(1/k^2)$ 极限收敛速率的数学证明。
 *   [**邻近梯度法 (Proximal Gradient Method)**](./Math/proximal_gradient_method.md)
     *   详述前向-后向分裂架构，解析复合凸优化中光滑梯度与非光滑近端映射的耦合机制，探讨 FISTA 加速原理。
-*   [**邻近算子 (Proximal Operator)**](./Math/proximal_operator.md)
-    *   详述非光滑复合优化的核心桥梁，涵盖近端映射数学定义、常见闭式解（软阈值/投影）及在大规模分布式控制中的应用。
 *   [**坐标下降法 (Coordinate Descent Method)**](./Math/coordinate_descent_method.md)
     *   系统化梳理坐标下降法的高维分而治之机制、算法递推流程，深度剖析非凸不收敛经典反例（Powell 震荡），以及坐标极小点在连续可微与非光滑凸函数场景下的收敛性定理。
 *   [**牛顿法 (Newton's Method)**](./Math/newtons_method.md)
