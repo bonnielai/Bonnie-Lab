@@ -81,6 +81,14 @@
     *   解析 AI 决策规划的核心框架：详述选择、扩展、模拟、反向传播四大环节，分析其在动态环境下如何通过随机模拟逼近最优策略，以及在 AlphaGo 等复杂博弈系统中的关键地位。 
 *   [**置信上限树算法 (UCT, Upper Confidence Bound for Trees)**](./AI_core/uct_decision_balance.md) 
     *   剖析 MCTS 的搜索决策策略：探讨 UCT 公式如何在“利用（Exploitation）”已发现优势与“探索（Exploration）”未知空间之间建立数学平衡，解决复杂决策过程中的路径选择难题。
+*   [**Softmax 函数数学逻辑与概率映射机制解析 (Softmax Activation)**](./AI_Basics/softmax_function.md)
+    *   系统化拆解 Softmax 函数的指数化与归一化核心逻辑，对比其在多分类任务中的重要作用，并提供从原始 Logits 转化为概率分布的计算实现指南。
+*   [**有向无环图 (DAG)**](./AI_core/dag.md)
+    * 系统化梳理 DAG 作为任务依赖与计算流逻辑骨架的数学本质，解析拓扑排序在保障执行顺序、消除循环依赖导致的死锁风险中的核心作用，并深度剖析其在深度学习计算图调度、资源内存优化及分布式任务并行化中的关键基础设施地位。
+*   [**Petri 网 (Petri Net)**](./AI_core/petri_net.md)
+    * 系统化梳理 Petri 网作为离散事件动态系统建模工具的数学定义，深度剖析“库所、变迁、令牌”在模拟多线程并发与异步协同中的交互机制，解析变迁“发射”对状态演化的驱动原理，并详述其在复杂计算系统资源冲突建模与死锁检测分析中的核心价值。
+*   [**BPMN (业务流程模型和符号)**](./AI_core/bpmn.md)
+    * 系统化梳理 BPMN 作为企业级业务流程标准视觉方言与数学模型的本质，深度解析“事件、活动、网关、泳道”四大核心组件的结构定义，探讨其独特的“令牌流”动态执行机制，并详述其在低代码平台直读执行、大模型 Agent 刚性控制流编排及流程挖掘中的现代 IT 架构价值。
 <!--
 *   **[深度学习 (Deep Learning)](./AI_Core/deep_learning.md)**：Transformer 架构、特征表达与神经网络稳定性。
 *   **[强化学习 (Reinforcement Learning)](./AI_Core/reinforcement_learning.md)**：从 MDP 到 PPO，探讨智能体在复杂环境中的最优决策。
@@ -110,7 +118,12 @@
     *   从权益投资到 AI 驱动的智能量化，解析策略构建的核心逻辑。
 *   [**量化金融基础 (Quant Finance)**](./AI_Finance/what_is_quantitative_finance.md)
     *   数据驱动的投资范式，以及从统计模型向强化学习的演进。
-
+*   [**勾稽关系深度解析 (Financial Articulation)**](./Accounting/articulation.md)
+    *   系统化梳理财务三大报表间的内在逻辑与平衡公式，并提供识别财务造假的勾稽检查框架。
+*   [**股票行情深度解析 (Market Quotations)**](./AI_Finance/market_quotations.md)
+    *   系统化梳理行情数据的组成要素、趋势类型、数据勾稽逻辑及复权处理方法。
+*   [**除权与复权机制深度解析 (Stock Price Adjustment)**](./AI_Finance/price_adjustment.md)
+    *   系统化拆解高送转及分红除权机制，对比前复权与后复权的数学逻辑，并提供量化回测下的复权数据清洗与应用场景指南。
 
 ---
 **Bonnie-Lab** | *Keep experimenting, keep learning.*  
