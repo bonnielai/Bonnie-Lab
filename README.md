@@ -9,7 +9,9 @@
 ## 🏗️ 1. 基础科学 (Fundamental Science)
 支撑复杂系统建模的底层工具与数学框架。
 
-### 📐 数学基础 (Mathematics)
+<details>
+<summary><strong>### 📐 数学基础 (Mathematics)</strong></summary>
+
 *   [**算子 (Operator)**](./Math/operator.md)
     *   系统化梳理算子作为处理“过程”与“映射关系”的超级规则，解析微分、积分及线性算子在空间变换中的作用，探讨算子在深度学习框架中作为“原子积木”的解构思想，并详述邻近算子在非光滑优化中作为平滑预处理工具的核心机制。
 *   [**梯度算子 (Gradient Operator)**](./Math/gradient_operator.md)
@@ -61,7 +63,12 @@
 *   **[矩阵分析](./Mathematics/matrix_analysis.md)**：线性代数的高级进阶与算子理论。
 -->
 
-### 🎲 博弈论 (Game Theory)
+</details>
+
+
+<details>
+<summary><strong>### 🎲 博弈论 (Game Theory)</strong></summary>
+
 *   [**纳什均衡 (Nash Equilibrium)**](./Game/Nash_Equilibrium.md)
     *   探讨在非合作博弈中，各参与者在对手决策不变时均无动机单方面改变策略的稳定状态。
 *   [**斯塔克尔伯格博弈 (Stackelberg Game)**](./Game/stackelberg_game.md)
@@ -71,12 +78,16 @@
 *   **[平均场博弈 (MFG)](./Game_Theory/mean_field_games.md)**：研究大规模异构智能体群体的交互行为。
 -->
 
+</details>
+
 ---
 
 ## 🤖 2. 人工智能核心 (AI Core)
 从感知、推理到技能习得的智能体技术栈。
 
-### 🧠 AI 基础理论
+<details>
+<summary><strong>### 🧠 AI 基础理论</strong></summary>
+
 *   [**蒙特卡洛树搜索 (Monte Carlo Tree Search)**](./AI_core/mcts_decision_making.md) 
     *   解析 AI 决策规划的核心框架：详述选择、扩展、模拟、反向传播四大环节，分析其在动态环境下如何通过随机模拟逼近最优策略，以及在 AlphaGo 等复杂博弈系统中的关键地位。 
 *   [**置信上限树算法 (UCT, Upper Confidence Bound for Trees)**](./AI_core/uct_decision_balance.md) 
@@ -95,9 +106,16 @@
 *   **[技能习得与知识迁移 (Skills & Transfer)](./AI_Core/skill_learning.md)**：研究 Agent 如何获取原子技能 (Atomic Skills) 并进行长程任务规划。
 -->
 
+</details>
+
 ---
 
 ## 🚦 3. AI + 交通 (AI & Traffic)
+
+<details>
+<summary><strong>详细内容</strong></summary>
+   
+
 *   [**异构交通环境 (Heterogeneous Traffic Environment)**](./AI_Traffic/heterogeneous_traffic_environment.md)
     *   解析混合自动化背景下，不同智能等级与驾驶风格的冲突与共存。
 *   [**影响场理论 (Influence Field Theory)**](./AI_Traffic/influence_field.md)
@@ -109,9 +127,16 @@
 
 <!--*   [**跨尺度仿真 (L2S2D)**](./AI_Traffic/l2s2d_framework.md)：连接微观博弈与宏观分布的钥匙。-->
 
+</details>
+
 ---
 
-## 💰 4. AI + 金融 (AI & Finance)
+
+##💰 4. AI + 金融 (AI & Finance) 
+
+<details>
+<summary><strong>详细内容</strong></summary>
+
 *   [**金融风险深度解析 (Financial Risk)**](./AI_Finance/financial_risk.md)
     *   系统化定义市场、信用、流动性及操作风险，并提供应对策略框架。
 *   [**金融策略概论 (Financial Strategy)**](./AI_Finance/financial_strategy.md)
@@ -125,6 +150,8 @@
 *   [**除权与复权机制深度解析 (Stock Price Adjustment)**](./AI_Finance/price_adjustment.md)
     *   系统化拆解高送转及分红除权机制，对比前复权与后复权的数学逻辑，并提供量化回测下的复权数据清洗与应用场景指南。
 
+</details>
+
 ---
 **Bonnie-Lab** | *Keep experimenting, keep learning.*  
-*Last Updated: 2026-05-14*
+*Last Updated: 2026-07-09*
