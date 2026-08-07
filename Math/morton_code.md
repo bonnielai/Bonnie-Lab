@@ -27,8 +27,10 @@ Plaintext
 |10-->11|14-->15|   (整体四个大块本身也构成一个大 Z)
 +---+---+---+---+
 ```
+<img src="/image/z_order_grid.png" alt="Z阶编码图" width="50%" />
 
-![Z阶编码图](/images/z_order_grid.png)
+<!-- ![Z阶编码图](/image/z_order_grid.png) -->
+
 
 ### 1.2 与欧几里得距离 / 曼哈顿距离的维度对比
 
