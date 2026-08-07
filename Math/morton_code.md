@@ -28,7 +28,7 @@ Plaintext
 +---+---+---+---+
 ```
 
-![Z阶编码图](./images/z_order_grid.png)
+![Z阶编码图](/images/z_order_grid.png)
 
 ### 1.2 与欧几里得距离 / 曼哈顿距离的维度对比
 
